@@ -299,6 +299,9 @@ qq.FileUploaderBasic.prototype = {
     getInProgress: function(){
         return this._filesInProgress;         
     },
+    cancel: function(id) {
+        this._handler.cancel(id);
+    },
     _createUploadButton: function(element){
         var self = this;
         
@@ -486,7 +489,7 @@ qq.FileUploader = function(o){
                 
         template: '<div class="qq-uploader">' + 
                 '<div class="qq-upload-drop-area"><span>Drop files here to upload</span></div>' +
-                '<div class="qq-upload-button">Upload a file</div>' +
+                '<div class="qq-upload-button"><span class="qq-upload-button-text">Upload a file</span></div>' +
                 '<ul class="qq-upload-list"></ul>' + 
              '</div>',
 

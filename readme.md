@@ -1,3 +1,10 @@
+
+Unoficial copy of Valums File Upload v1, with some patches for use with DesInventar and bower
+
+Unmaintained - Uploaded just for historic purposes
+
+---- Readme from: https://github.com/SimonEast/file-uploader ----
+
 [donation_link]: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=3PMY37SL9L888&lc=US&item_name=JavaScript%20file%20uploader&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donate_SM%2egif%3aNonHosted
 
 This plugin uses XHR for uploading multiple files with progress-bar in FF3.6+, Safari4+,
